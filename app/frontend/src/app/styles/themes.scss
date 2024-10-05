@@ -1,0 +1,44 @@
+:root {
+  --color-background: #f0f0f0;
+  --color-background-secondary: #e4e4e4;
+  --color-background-gradient-start: #cbcbcb;
+  --color-background-gradient-end: #e7e7e7;
+  --color-background-link: #d7d7d7;
+
+  --color-border: #e0e0e0;
+  --color-input: #949494;
+  --color-icon: #949494;
+
+  --color-card: #e5e5e5;
+  --color-card-foreground: #f0f0f0;
+
+  --color-text-primary: #949494;
+  --color-text-secondary: #cecece;
+  --color-text-title: #171717;
+
+  --color-link: #333;
+  --color-link-hover: #737373;
+}
+
+.dark-mode {
+  --color-background: #333;
+  --color-background-secondary: #101010;
+  --color-background-gradient-start: #0f0f0f;
+  --color-background-gradient-end: #141414;
+  --color-background-link: #1f1f1f;
+
+  --color-border: #e0e0e0;
+  --color-input: #949494;
+  --color-icon: #949494;
+
+  --color-card: #171717;
+  --color-card-foreground: #f0f0f0;
+
+  --color-text-primary: #949494;
+  --color-text-secondary: #d8d8d8;
+  --color-text-title: #eeeeee;
+  --color-text-description: #949494;
+
+  --color-link: #949494;
+  --color-link-hover: #d8d8d8;
+}
