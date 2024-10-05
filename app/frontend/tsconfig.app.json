@@ -23,13 +23,13 @@
 
     "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"], 
+      "@/*": ["src/*"],
       "@app/*": ["src/app/*"],
       "@config/*": ["src/configs/*"],
-      "@domain/*": ["src/domains/*"],
+      "@module/*": ["src/modules/*"],
       "@ui/*": ["src/packages/ui/*"],
       "@package/*": ["src/packages/*"]
-    },
+    }
   },
   "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"]
 }

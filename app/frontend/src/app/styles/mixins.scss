@@ -1,12 +1,12 @@
-@use "variables" as *;
+@use 'variables' as *;
 
 $breakpoints: (
-  "laptop-l": $size-laptop-l,
-  "laptop": $size-laptop,
-  "tablet": $size-tablet,
-  "mobile-l": $size-mobile-l,
-  "mobile-m": $size-mobile-m,
-  "mobile-s": $size-mobile-s,
+  'laptop-l': $size-laptop-l,
+  'laptop': $size-laptop,
+  'tablet': $size-tablet,
+  'mobile-l': $size-mobile-l,
+  'mobile-m': $size-mobile-m,
+  'mobile-s': $size-mobile-s
 );
 
 @mixin respond-to($breakpoint) {
