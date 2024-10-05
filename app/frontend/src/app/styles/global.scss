@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-small);
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+  background-image: linear-gradient(
+    to top,
+    var(--color-background-gradient-start),
+    var(--color-background-gradient-end)
+  );
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-link);
+
+  &:hover {
+    color: var(--color-link-hover);
+    transition: all 0.3s ease;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: var(--font-weight-base);
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
